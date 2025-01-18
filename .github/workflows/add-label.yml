@@ -1,11 +1,11 @@
-name: PR Auto Label and Reviewer
+name: Auto Add Label
 
 on:
   pull_request:
     types: [opened, edited]
 
 permissions:
-  pull_request: write
+  pull-requests: write
 
 jobs:
   add-label-and-reviewer:
